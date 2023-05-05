@@ -1,4 +1,4 @@
-# job
+# Job Management using SpringBoot and Hibernate
 
 Job Management is a RESTful API built with Spring Boot and Hibernate that allows managing job postings and candidate applications for those jobs. This API provides the functionality to create, read, update and delete jobs, and candidates. 
 
