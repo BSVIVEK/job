@@ -8,11 +8,17 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+/**
+ * Implemented the Candidate Service interface and handled.
+ */
 @Service
 public class CandidServiceImpl implements CandidService {
 
     @Autowired
     private CandidRepository candidRepository;
+
+    public CandidServiceImpl(CandidRepository candidRepository) {
+    }
 
     @Override
     public Candid createCandid(Candid candid) {

@@ -8,6 +8,9 @@ import org.springframework.data.repository.query.Param;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * Candidate Repository.
+ */
 public interface CandidRepository extends CrudRepository<Candid, Long> {
     Optional<Candid> findCandidByCandidId(Integer id);
 

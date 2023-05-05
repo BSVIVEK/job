@@ -7,6 +7,9 @@ import lombok.ToString;
 
 import javax.persistence.*;
 
+/**
+ * Maintaining this AppData as third table to handle applied jobs and candidates.
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

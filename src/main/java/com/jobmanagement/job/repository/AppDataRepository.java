@@ -6,8 +6,10 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 
 import java.util.List;
-import java.util.Optional;
 
+/**
+ * AppDataRepository.
+ */
 public interface AppDataRepository extends CrudRepository<AppData, Long> {
 
     @Query("SELECT COUNT(a) > 0 FROM AppData a WHERE a.candid_id = :candidId AND a.job_id = :jobId")

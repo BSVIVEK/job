@@ -8,6 +8,9 @@ import org.springframework.data.repository.query.Param;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * Job Repository.
+ */
 public interface JobRepository extends CrudRepository<Job, Long> {
     Optional<Job> findJobByJobId(Integer jobId);
 

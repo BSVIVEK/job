@@ -7,14 +7,15 @@ import com.jobmanagement.job.repository.AppDataRepository;
 import com.jobmanagement.job.repository.CandidRepository;
 import com.jobmanagement.job.repository.JobRepository;
 import com.jobmanagement.job.service.JobService;
-import org.apache.catalina.connector.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.management.openmbean.KeyAlreadyExistsException;
 import javax.persistence.EntityNotFoundException;
 import java.util.*;
 
+/**
+ * Implemented the Job Service interface and handled.
+ */
 @Service
 public class JobServiceImpl implements JobService {
 

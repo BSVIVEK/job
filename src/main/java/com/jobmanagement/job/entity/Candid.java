@@ -8,6 +8,9 @@ import lombok.ToString;
 
 import javax.persistence.*;
 
+/**
+ * Candidate Table.
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

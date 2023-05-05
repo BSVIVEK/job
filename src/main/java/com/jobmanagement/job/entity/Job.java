@@ -7,6 +7,10 @@ import lombok.ToString;
 
 import javax.persistence.*;
 
+
+/**
+ * Job Table.
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
